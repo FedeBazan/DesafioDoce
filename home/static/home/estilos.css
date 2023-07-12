@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+#container{
+    width: 1350px;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+header{
+    background-color: lightgreen;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px; /* se usa para centrar la caja*/
+    color: black;
+    border-bottom: 3px solid black;
+    background-image: url("/static/img/flores.jpg");
+    background-size: cover;
+    
+}
+h1{
+    color: rgb(50, 40, 200);
+    
+}
+h1:hover{
+    transform: scale(1.1);
+    -ms-transform:scaleX(.9) ;
+    color: rgb(224, 224, 231);
+}
+
+nav{
+    background-color: antiquewhite;
+    height: 50px;
+    border-bottom: 2px solid black;
+   
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 21px;
+}
+ul li a:hover{
+    cursor: pointer;
+    transition:.6s ease all;
+    color: aquamarine;
+}
+
+.clearfix{
+    clear: both;
+}
+#content{
+    float: left;
+    width: calc(80% - 80px);
+    background-color: rgb(4, 51, 4);
+    min-height: 500px;
+    padding: 40px;
+    background-image: url("/static/img/desk.jpg");
+    background-size: cover;
+       
+}
+.article{
+    color: white;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+.article:first-child{
+    padding-top: 10px;
+    border-bottom: 1px solid #eee;
+}
+.article h2{
+    font-size: 32px;
+}
+h2{
+    color: rgb(50, 40, 200);
+    
+}
+h3{
+    color: rgb(7, 87, 60);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: rgb(3, 8, 31);
+    font-weight: bold;
+}
+aside{
+    float: left;
+    width: calc(20% - 20px);
+    background-color: rgb(0, 255, 85);
+    min-height: 560px;
+    padding: 10px;
+      
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+    line-height: 35px;
+}
+.pie{
+    color: white;
+}
+

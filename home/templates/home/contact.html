@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> {% block title %} {% endblock %} | Blog Personal</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'home/estilos.css' %}">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>BIENVENIDOS A MI BLOG PERSONAL</h1>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/about">About</a>
+                </li>
+                <li>
+                    <a href="/contact">Contact</a>
+                </li>
+                <li>
+                    <a href="/form">Form</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="clearfix"></div>
+        <section id="content">
+            <article class="article">
+                <h2>Artículos</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati harum laboriosam dolorem labore saepe minus totam beatae aperiam maxime ut, ex repellendus, ea dolor sed quod odit hic officiis. Accusantium?</p>
+            </article>
+            <article class="article">
+                <h2>Categorías</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati harum laboriosam dolorem labore saepe minus totam beatae aperiam maxime ut, ex repellendus, ea dolor sed quod odit hic officiis. Accusantium?</p>
+            </article>
+            <article class="article">
+                <h2>Mejores Noticias</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati harum laboriosam dolorem labore saepe minus totam beatae aperiam maxime ut, ex repellendus, ea dolor sed quod odit hic officiis. Accusantium?</p>
+            </article>
+            <article class="article">
+                <h2>Otras novedades</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat repellendus quidem et iste. Quod quam non voluptatem, doloremque in deleniti? Ipsa, aspernatur? Harum reprehenderit dolore maiores, aperiam blanditiis facilis facere!</p>
+            </article>
+            
+        </section>
+           
+        <aside>
+            <h2>Etiquetas</h2>
+            <form action="#">
+                <input type="text">
+                <input type="submit" value="Buscar" style="font-size: 21px;">
+            
+            </form>
+            <h2>Nuevos métodos en la Programación Orientada a Objetos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum libero sed veritatis inventore? Consequuntur, optio!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolore ea doloremque aperiam, impedit ad.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt rem dolorum possimus est eaque odio.</p>
+        </aside>
+        <div class="clearfix"></div>
+        <footer>
+            <p class="pie">Blog Personal - Sitio web hecho por Gustavo - Fabián - Yamila  -Daira - Federico - Pedro &copy;</p>
+        </footer>
+    </div>
+    
+</body>
+</html>
