@@ -20,6 +20,9 @@ def home(request):
     
     return HttpResponse(template.render(context, request))
 
+def about(request):
+    return HttpResponse('<h2>Hello</h2>')
+
 
  
 
