@@ -20,12 +20,6 @@ def home(request):
     
     return HttpResponse(template.render(context, request))
 
-def about(request):
-    return HttpResponse('<h2>Hello</h2>')
-
-
- 
-
 
 def about(request):
     return render(request, 'home/about.html')
@@ -37,3 +31,7 @@ def contact(request):
 
 def form(request):
     return render(request, 'home/form.html')
+
+
+def a(request):
+    return HttpResponse('<h2>Hello</h2>')
